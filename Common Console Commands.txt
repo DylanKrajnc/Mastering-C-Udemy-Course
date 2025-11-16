@@ -1,1 +1,2 @@
 gcc x.c -o x && ./x
+gcc -Wall x.c -o x.o && ./x.o
