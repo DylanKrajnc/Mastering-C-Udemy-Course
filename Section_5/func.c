@@ -16,7 +16,7 @@ void show_info(int employee_id, bool on_holiday)
   printf("Employee: %d, on holiday: %d\n", employee_id, on_holiday);
 }
 
-int main(int charc, const char *argv[])
+int main(int argc, const char *argv[])
 {
   show_info(123, true);
 

@@ -3,3 +3,4 @@ gcc -Wall x.c -o x.o && ./x.o
 gcc -std=c2x -Wall
 gcc -Wall prog.c funcs.c -o prog.o && ./prog.o
 gcc -Wall *.c -o prog.o && ./prog.o
+gcc -c *.c

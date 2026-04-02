@@ -10,7 +10,7 @@ struct Item struct_munger(struct Item item)
   return item;
 }
 
-int main(int charc, const char *argv[])
+int main(int argc, const char *argv[])
 {
   struct Item item = {6, {7, 8}};
   printf("item: %d, {%d, %d}\n", item.id, item.v[0], item.v[1]);

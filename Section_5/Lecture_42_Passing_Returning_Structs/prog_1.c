@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "data.h"
 
-int main(int charc, const char *argv[]) {
+int main(int argc, const char *argv[]) {
   struct Item item1 = {1, {2, 3}};
   printf("item1: %d, {%d, %d}\n", item1.id, item1.v[0], item1.v[1]);
 

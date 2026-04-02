@@ -4,7 +4,7 @@
 //Forward declared prototype of function.
 void show_info(int employee_id, bool on_holiday);
 
-int main(int charc, const char *argv[])
+int main(int argc, const char *argv[])
 {
   //Call of the function.
   show_info(123, true);
