@@ -20,7 +20,7 @@ int main(int argc, const char *argv[])
   printf("%08x\n", value2);
 
   int value3 = 27;
-  printf("%d\n", value3 << 1);
+  printf("%d\n", value3 << 1); // equivalent to multiplying by 2
 
   return 0;
 }
