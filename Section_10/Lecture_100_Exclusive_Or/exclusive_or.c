@@ -4,6 +4,8 @@
 
 void print_flag(flag_t flag)
 {
+  // in a 32 bit integer, we could have 32 different flags
+
   flag_t constants[] = {READ, WRITE, APPEND}; // C doesn't provide an easy way to iterate over elements of an enum
   char symbols[] = "RWA";
 
